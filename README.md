@@ -1,2 +1,2 @@
 # java-datastructure
-Example of Data Structures in java 
+Example of Data Structures in java  

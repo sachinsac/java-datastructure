@@ -1,0 +1,10 @@
+name: Github Actions Demo
+on: [push]
+jobs:
+  test-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: test
+        run: echo "sample github actions"
